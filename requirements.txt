@@ -1,40 +1,13 @@
-# Core environment and utilities
-python-dotenv>=1.0.1
-pickle5; python_version < "3.8"
-
-# Streamlit UI
-streamlit>=1.31.0
-
-# LangChain ecosystem
-langchain>=0.2.14
-langchain-core>=0.2.35
-langchain-community>=0.2.10
-langchain-huggingface>=0.0.3
-langchain-groq>=0.0.3
-
-# Vector store + embeddings
-sentence-transformers>=2.6.1
-transformers>=4.41.0
-torch>=2.3.0
-faiss-cpu>=1.8.0  # optional, but harmless to include
-
-# Supabase client (used in vector store)
-supabase>=2.3.0
-postgrest>=0.13.1
-gotrue>=2.4.0
-storage3>=0.7.0
-
-# NLP + Knowledge Graph
-spacy>=3.7.4
-networkx>=3.3
-
-# Document loading & splitting
-pypdf2>=3.0.1
-pdfminer.six>=20221105
-langchain-text-splitters>=0.0.2
-
-# General utilities
-requests>=2.32.0
-
-# Optional (for reranking or future improvements)
-sentencepiece>=0.1.99
+streamlit 
+spacy 
+networkx 
+python-dotenv 
+supabase 
+langchain 
+langchain-core 
+langchain-community 
+langchain-huggingface 
+langchain-groq 
+sentence-transformers 
+langgraph
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
